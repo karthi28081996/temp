@@ -1,0 +1,142 @@
+.react-collapsible-theme .react-collapsible thead th,
+.react-collapsible-theme .react-collapsible td {
+  padding: 0.7rem;
+  min-width: 50% !important;
+  word-wrap: break-word;
+}
+
+.react-collapsible-theme .react-collapsible .clickable {
+  cursor: pointer;
+}
+
+.react-collapsible-theme .react-collapsible td {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 2px black solid;
+}
+
+/*child row in table */
+
+.react-collapsible-theme .react-collapsible .child-cell {
+  display: flex;
+}
+
+.react-collapsible-theme .react-collapsible .child-label {
+  margin-left: 1.6rem;
+  flex-basis: 25%;
+}
+
+.react-collapsible-theme .react-collapsible .child-content {
+  flex-basis: 75%;
+}
+
+@media screen and (min-width: 768px) {
+  .react-collapsible-theme .react-collapsible .child-label {
+    margin-left: 1.6rem;
+    flex-basis: 10%;
+  }
+  .react-collapsible-theme .react-collapsible .child-content {
+    flex-basis: 90%;
+  }
+}
+
+.react-collapsible-theme .react-collapsible thead {
+  background: darkslategray;
+
+  border: 2px black solid;
+  text-align: center;
+  color: white;
+}
+.react-collapsible-theme .react-collapsible .child-label {
+  font-size: 0.6rem;
+  margin: 0px !important;
+  color: grey;
+  background: none;
+  padding: 1rem;
+  font-weight: 300;
+
+  word-wrap: break-word;
+}
+.react-collapsible-theme .react-collapsible td .child-content {
+  padding: 1rem;
+  font-size: 0.6rem;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+/*Styles for search */
+
+.react-collapsible-theme .react-collapsible-search {
+  margin: 1.2rem 0;
+}
+
+.react-collapsible-theme .react-collapsible-search .react-collapsible-clear {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0;
+}
+
+.react-collapsible-theme .react-collapsible-search input {
+  border: 0;
+  border-bottom: 1px #009cde solid;
+  height: 2rem;
+  padding: 10px;
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+.react-collapsible-theme .react-collapsible-search input::placeholder {
+  color: #858da3;
+}
+
+.react-collapsible-theme .react-collapsible-search .search-input {
+  display: inline-block;
+  position: relative;
+  width: 100% !important;
+}
+
+.react-collapsible-theme .react-collapsible-search .search-input :focus {
+  border: none !important;
+}
+.react-collapsible-theme .react-collapsible-search .search-input .search-icon {
+  position: absolute;
+  right: 3px;
+  top: 3 px;
+}
+
+.react-collapsible-theme .brand-primary-light {
+  color: #009cde;
+}
+
+.react-collapsible-theme .search-highlight {
+  background-color: #c1c9d5;
+}
+
+/*Styles for pagination */
+
+.react-collapsible-theme .react-collapsible-page {
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin: 3vh;
+}
+
+.react-collapsible-theme .react-collapsible-page .arrow-left {
+  margin-right: 0.8rem;
+}
+
+.react-collapsible-theme .react-collapsible-page .arrow-right {
+  margin-left: 0.8rem;
+}
+
+.react-collapsible-theme .highlight {
+  background-color: #ffff00;
+}
+
+h1 {
+  color: red !important;
+  font-size: 16px;
+}
